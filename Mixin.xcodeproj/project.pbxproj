@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2B81C116DAE19100EE884C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2B81C016DAE19100EE884C /* UIKit.framework */; };
+		8B2B81C316DAE19100EE884C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2B81C216DAE19100EE884C /* Foundation.framework */; };
+		8B2B81C516DAE19100EE884C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2B81C416DAE19100EE884C /* CoreGraphics.framework */; };
+		8B2B81CD16DAE19100EE884C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B81CC16DAE19100EE884C /* main.m */; };
+		8B2B81D116DAE19100EE884C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B81D016DAE19100EE884C /* AppDelegate.m */; };
+		8B2B81D316DAE19100EE884C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B81D216DAE19100EE884C /* Default.png */; };
+		8B2B81D516DAE19100EE884C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B81D416DAE19100EE884C /* Default@2x.png */; };
+		8B2B81D716DAE19100EE884C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B81D616DAE19100EE884C /* Default-568h@2x.png */; };
+		8B2B81DF16DAE19200EE884C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2B81DE16DAE19200EE884C /* SenTestingKit.framework */; };
+		8B2B81E016DAE19200EE884C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2B81C016DAE19100EE884C /* UIKit.framework */; };
+		8B2B81E116DAE19200EE884C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2B81C216DAE19100EE884C /* Foundation.framework */; };
+		8B2B81EC16DAE19200EE884C /* MixinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B81EB16DAE19200EE884C /* MixinTests.m */; };
+		8B2B81F716DAE19E00EE884C /* FRModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B81F616DAE19E00EE884C /* FRModule.m */; };
+		8B2B81FB16DAF30A00EE884C /* FRBlockDrawingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B81FA16DAF30A00EE884C /* FRBlockDrawingModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B2B81E216DAE19200EE884C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2B81B516DAE19100EE884C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2B81BC16DAE19100EE884C;
+			remoteInfo = Mixin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B2B81BD16DAE19100EE884C /* Mixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2B81C016DAE19100EE884C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B2B81C216DAE19100EE884C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B2B81C416DAE19100EE884C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B2B81C816DAE19100EE884C /* Mixin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Mixin.plist; sourceTree = "<group>"; };
+		8B2B81CC16DAE19100EE884C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B2B81CE16DAE19100EE884C /* Mixin.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mixin.pch; sourceTree = "<group>"; };
+		8B2B81CF16DAE19100EE884C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B2B81D016DAE19100EE884C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B2B81D216DAE19100EE884C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8B2B81D416DAE19100EE884C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8B2B81D616DAE19100EE884C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8B2B81DD16DAE19200EE884C /* MixinTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixinTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2B81DE16DAE19200EE884C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8B2B81E616DAE19200EE884C /* MixinTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MixinTests.plist; sourceTree = "<group>"; };
+		8B2B81EA16DAE19200EE884C /* MixinTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixinTests.h; sourceTree = "<group>"; };
+		8B2B81EB16DAE19200EE884C /* MixinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixinTests.m; sourceTree = "<group>"; };
+		8B2B81F516DAE19E00EE884C /* FRModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRModule.h; sourceTree = "<group>"; };
+		8B2B81F616DAE19E00EE884C /* FRModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRModule.m; sourceTree = "<group>"; };
+		8B2B81F916DAF30A00EE884C /* FRBlockDrawingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRBlockDrawingModule.h; sourceTree = "<group>"; };
+		8B2B81FA16DAF30A00EE884C /* FRBlockDrawingModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRBlockDrawingModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B2B81BA16DAE19100EE884C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B81C116DAE19100EE884C /* UIKit.framework in Frameworks */,
+				8B2B81C316DAE19100EE884C /* Foundation.framework in Frameworks */,
+				8B2B81C516DAE19100EE884C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2B81D916DAE19200EE884C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B81DF16DAE19200EE884C /* SenTestingKit.framework in Frameworks */,
+				8B2B81E016DAE19200EE884C /* UIKit.framework in Frameworks */,
+				8B2B81E116DAE19200EE884C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B2B81B416DAE19100EE884C = {
+			isa = PBXGroup;
+			children = (
+				8B2B81F816DAF2F100EE884C /* Module (Extending Objects & Classs) */,
+				8B2B81C616DAE19100EE884C /* Example App */,
+				8B2B81E416DAE19200EE884C /* MixinTests */,
+				8B2B81BF16DAE19100EE884C /* Frameworks */,
+				8B2B81BE16DAE19100EE884C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2B81BE16DAE19100EE884C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B81BD16DAE19100EE884C /* Mixin.app */,
+				8B2B81DD16DAE19200EE884C /* MixinTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2B81BF16DAE19100EE884C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B81C016DAE19100EE884C /* UIKit.framework */,
+				8B2B81C216DAE19100EE884C /* Foundation.framework */,
+				8B2B81C416DAE19100EE884C /* CoreGraphics.framework */,
+				8B2B81DE16DAE19200EE884C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B2B81C616DAE19100EE884C /* Example App */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B81CF16DAE19100EE884C /* AppDelegate.h */,
+				8B2B81D016DAE19100EE884C /* AppDelegate.m */,
+				8B2B81F916DAF30A00EE884C /* FRBlockDrawingModule.h */,
+				8B2B81FA16DAF30A00EE884C /* FRBlockDrawingModule.m */,
+				8B2B81C716DAE19100EE884C /* Supporting Files */,
+			);
+			name = "Example App";
+			path = Mixin;
+			sourceTree = "<group>";
+		};
+		8B2B81C716DAE19100EE884C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B81C816DAE19100EE884C /* Mixin.plist */,
+				8B2B81CC16DAE19100EE884C /* main.m */,
+				8B2B81CE16DAE19100EE884C /* Mixin.pch */,
+				8B2B81D216DAE19100EE884C /* Default.png */,
+				8B2B81D416DAE19100EE884C /* Default@2x.png */,
+				8B2B81D616DAE19100EE884C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2B81E416DAE19200EE884C /* MixinTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B81EA16DAE19200EE884C /* MixinTests.h */,
+				8B2B81EB16DAE19200EE884C /* MixinTests.m */,
+				8B2B81E516DAE19200EE884C /* Supporting Files */,
+			);
+			path = MixinTests;
+			sourceTree = "<group>";
+		};
+		8B2B81E516DAE19200EE884C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B81E616DAE19200EE884C /* MixinTests.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2B81F816DAF2F100EE884C /* Module (Extending Objects & Classs) */ = {
+			isa = PBXGroup;
+			children = (
+				8B2B81F516DAE19E00EE884C /* FRModule.h */,
+				8B2B81F616DAE19E00EE884C /* FRModule.m */,
+			);
+			name = "Module (Extending Objects & Classs)";
+			path = Mixin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B2B81BC16DAE19100EE884C /* Mixin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2B81EF16DAE19200EE884C /* Build configuration list for PBXNativeTarget "Mixin" */;
+			buildPhases = (
+				8B2B81B916DAE19100EE884C /* Sources */,
+				8B2B81BA16DAE19100EE884C /* Frameworks */,
+				8B2B81BB16DAE19100EE884C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mixin;
+			productName = Mixin;
+			productReference = 8B2B81BD16DAE19100EE884C /* Mixin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B2B81DC16DAE19200EE884C /* MixinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2B81F216DAE19200EE884C /* Build configuration list for PBXNativeTarget "MixinTests" */;
+			buildPhases = (
+				8B2B81D816DAE19200EE884C /* Sources */,
+				8B2B81D916DAE19200EE884C /* Frameworks */,
+				8B2B81DA16DAE19200EE884C /* Resources */,
+				8B2B81DB16DAE19200EE884C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2B81E316DAE19200EE884C /* PBXTargetDependency */,
+			);
+			name = MixinTests;
+			productName = MixinTests;
+			productReference = 8B2B81DD16DAE19200EE884C /* MixinTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B2B81B516DAE19100EE884C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "FadingRed LLC";
+			};
+			buildConfigurationList = 8B2B81B816DAE19100EE884C /* Build configuration list for PBXProject "Mixin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B2B81B416DAE19100EE884C;
+			productRefGroup = 8B2B81BE16DAE19100EE884C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2B81BC16DAE19100EE884C /* Mixin */,
+				8B2B81DC16DAE19200EE884C /* MixinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B2B81BB16DAE19100EE884C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B81D316DAE19100EE884C /* Default.png in Resources */,
+				8B2B81D516DAE19100EE884C /* Default@2x.png in Resources */,
+				8B2B81D716DAE19100EE884C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2B81DA16DAE19200EE884C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B2B81DB16DAE19200EE884C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B2B81B916DAE19100EE884C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B81CD16DAE19100EE884C /* main.m in Sources */,
+				8B2B81D116DAE19100EE884C /* AppDelegate.m in Sources */,
+				8B2B81F716DAE19E00EE884C /* FRModule.m in Sources */,
+				8B2B81FB16DAF30A00EE884C /* FRBlockDrawingModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2B81D816DAE19200EE884C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B81EC16DAE19200EE884C /* MixinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B2B81E316DAE19200EE884C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2B81BC16DAE19100EE884C /* Mixin */;
+			targetProxy = 8B2B81E216DAE19200EE884C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B2B81ED16DAE19200EE884C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B2B81EE16DAE19200EE884C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B2B81F016DAE19200EE884C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mixin/Mixin.pch;
+				INFOPLIST_FILE = Mixin/Mixin.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B2B81F116DAE19200EE884C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mixin/Mixin.pch;
+				INFOPLIST_FILE = Mixin/Mixin.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8B2B81F316DAE19200EE884C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mixin.app/Mixin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mixin/Mixin.pch;
+				INFOPLIST_FILE = MixinTests/MixinTests.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8B2B81F416DAE19200EE884C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mixin.app/Mixin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mixin/Mixin.pch;
+				INFOPLIST_FILE = MixinTests/MixinTests.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B2B81B816DAE19100EE884C /* Build configuration list for PBXProject "Mixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2B81ED16DAE19200EE884C /* Debug */,
+				8B2B81EE16DAE19200EE884C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2B81EF16DAE19200EE884C /* Build configuration list for PBXNativeTarget "Mixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2B81F016DAE19200EE884C /* Debug */,
+				8B2B81F116DAE19200EE884C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2B81F216DAE19200EE884C /* Build configuration list for PBXNativeTarget "MixinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2B81F316DAE19200EE884C /* Debug */,
+				8B2B81F416DAE19200EE884C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B2B81B516DAE19100EE884C /* Project object */;
+}
